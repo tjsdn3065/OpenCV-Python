@@ -1,5 +1,4 @@
 import numpy as np,cv2
-from numpy.ma.core import max_val
 
 data=[10,200,5,7,9,
       15,35,60,80,170,
