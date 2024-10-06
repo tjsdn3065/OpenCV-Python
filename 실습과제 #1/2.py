@@ -21,6 +21,7 @@ new_image=[ch_B,ch_G,ch_R]
 
 merge_bgr=cv2.merge(new_image)                      # 다시 합치기
 
-cv2.imshow("image",merge_bgr)
+cv2.imshow("image",image)
+cv2.imshow("new_image",merge_bgr)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

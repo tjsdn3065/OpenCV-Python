@@ -17,6 +17,8 @@ xy_image=cv2.flip(image2,-1)
 
 new_image = cv2.addWeighted(x_image, 0.4, xy_image, 0.6, 0)
 
-cv2.imshow("image",new_image)
+cv2.imshow("image1",image1)
+cv2.imshow("image2",image2)
+cv2.imshow("new_image",new_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

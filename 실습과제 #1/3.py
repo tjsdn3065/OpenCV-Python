@@ -32,4 +32,7 @@ while True:
     print("[mean] =",mean.flatten())
     print("[stddev] =", stddev.flatten())
 
+    cv2.rectangle(frame,(x,y,w,h),0,2)
+    cv2.imshow("frame",frame)
+
 capture.release()
