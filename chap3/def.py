@@ -1,6 +1,3 @@
-from fileinput import close
-
-
 def calc_area(type,a,b,c=None):
     if type == 1:
         result = a * b
