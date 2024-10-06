@@ -74,9 +74,10 @@ hist_stretching_img=draw_histo(hist_stretching)
 hist_equalize_img=draw_histo(hist_equalize)
 
 # 결과 출력
-print("R : ",R_hist.flatten())
-print("G : ",G_hist.flatten())
-print("B : ",B_hist.flatten())
+print("R_hist: ",R_hist.flatten())
+print("G_hist: ",G_hist.flatten())
+print("B_hist: ",B_hist.flatten())
+print("image_grayscale_hist: ",hist.flatten())
 
 cv2.imshow("image_color", image_color)
 cv2.imshow("image_grayscale", image_grayscale)
